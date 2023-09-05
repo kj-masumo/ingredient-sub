@@ -15,3 +15,9 @@ The most important facet of future work in this field would be to improve on the
 Inclusion of the recipe steps could also help future work. The contribution of an ingredient to a recipe can be entirely different depending on the steps in the recipe (i.e. diced raw onions versus grilled onions). Finding ways to incorporate this into the model could be useful and improve the results.
 
 One final note in future work in this area is that more sophisticated representations of the recipes dataset could improve results. We exclusively used sparse matrix representations to represent the recipes dataset, but dense matrix representations could provide more concrete results given more time and resources.
+
+## Files
+* co_occurrence_matrix.ipynb: This notebook contains the steps we took to create the initial co-occurrence matrix
+* Updated_PPMI.ipynb: This notebook contains the steps we took to create the PPMI matrix using the initial co-occurrence matrix
+* cosine_similarity.ipynb: This notebook contains the steps we used to find the top cosine similarities between ingredients
+* Final Project Report.pdf: This is our final report for this project, outlining in more detail our data, methodology, findings, and interpretations
